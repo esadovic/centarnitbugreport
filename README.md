@@ -1,50 +1,68 @@
-<h1>Testing of website centarnit.com </h1>
+<h2>Project consists of a bug report from site www.centarnit.com</h2>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+<h3>BUG 1</h3>
 
-<h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
-<br />
+Summary: Contact Us - Form with all required fields is not sent and user is redirected to the blank page. <br>
+Contact Us - Form with all required fields is not sent and no request is send <br>
+Contact Us - Request is not sent and user is redirected to the blank page after click on Send <br>
 
+Description:
 
-<h2>Languages and Utilities Used</h2>
+Precodintions:
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+Steps to reproduce:
+1.	Go to https://academybugs.com/contact-us-form/
+2.	Fill in the first name
+3.	Fill in the last name
+4.	Fill in valid email adress: (example: test@gmail.com)
+5.	Enter some value in subject and message fields
+6.	Click “Send“ button
+   
+Actual result: After click on Send button user is redirected to the blank page and there is no post request in the console. Contact form is not sent: User redirected to the blank page.
 
-<h2>Environments Used </h2>
+Expected result: Request is sent. User is redirected to the home page and succes message is visible at the top of the page: “Thank you for your contact form. We will contact you as soon as possible.”
 
-- <b>Windows 10</b> (21H2)
+Environment/Reproduced on:
 
-<h2>Program walk-through:</h2>
+Attachment:
 
 <p align="center">
 Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+</p>
+<br>
+
+<h3>BUG 2</h3>
+
+Summary: Contact Us - Form with all required fields is not sent and user is redirected to the blank page. <br>
+Contact Us - Form with all required fields is not sent and no request is send <br>
+Contact Us - Request is not sent and user is redirected to the blank page after click on Send <br>
+
+Description:
+
+Precodintions:
+
+Steps to reproduce:
+1.	Go to https://academybugs.com/contact-us-form/
+2.	Fill in the first name
+3.	Fill in the last name
+4.	Fill in valid email adress: (example: test@gmail.com)
+5.	Enter some value in subject and message fields
+6.	Click “Send“ button
+   
+Actual result: After click on Send button user is redirected to the blank page and there is no post request in the console. Contact form is not sent: User redirected to the blank page.
+
+Expected result: Request is sent. User is redirected to the home page and succes message is visible at the top of the page: “Thank you for your contact form. We will contact you as soon as possible.”
+
+Environment/Reproduced on:
+
+Attachment:
+
+<p align="center">
+Launch the utility: <br/>
+<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
