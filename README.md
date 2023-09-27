@@ -1,6 +1,6 @@
 <h2>Project consists of a bug report from site www.centarnit.com</h2>
 
-<h3>BUG 1</h3>
+<h3>BUG 1</h3> 
 
 Summary: Contact Us - Form with all required fields is not sent and user is redirected to the blank page. <br>
 Contact Us - Form with all required fields is not sent and no request is send <br>
